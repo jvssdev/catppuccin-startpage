@@ -293,6 +293,7 @@ class Tabs extends Component {
         <div id="panels">
           <div class="categories">
             ${Category.getAll(this.tabs)}
+            <search-bar></search-bar>
           </div>
           <status-bar class="!-"></status-bar>
         </div>
