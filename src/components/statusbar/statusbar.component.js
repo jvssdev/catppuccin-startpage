@@ -1,4 +1,3 @@
-
 // Statusbar component for tab navigation and widgets
 class Statusbar extends Component {
   // External DOM element references
@@ -38,7 +37,7 @@ class Statusbar extends Component {
    * @returns {string[]} Array of CSS file paths
    */
   imports() {
-    return [this.getFontResource('roboto'), this.getIconResource('material'), this.getLibraryResource('awoo')];
+    return [this.getFontResource("roboto"), this.getIconResource("material"), this.getLibraryResource("awoo")];
   }
 
   /**
@@ -226,7 +225,7 @@ class Statusbar extends Component {
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
                     <current-time class="+ widget time-widget"></current-time>
-                    <weather-forecast class="+ widget weather"></weather-forecast>
+                    // <weather-forecast class="+ widget weather"></weather-forecast>
                 </div>
             </cols>
         </div>`;
