@@ -83,7 +83,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/banner_17.gif",
       categories: [
         {
           name: "development",
@@ -129,7 +129,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
           name: "social media",
