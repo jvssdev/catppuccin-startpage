@@ -6,7 +6,7 @@ const components = {
   "search-bar": Search,
   "status-bar": Statusbar,
   "current-time": Clock,
-  "weather-forecast": Weather,
+  // "weather-forecast": Weather,
   "tabs-list": Tabs,
 };
 
